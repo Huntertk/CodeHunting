@@ -78,6 +78,7 @@ input:focus{
     background-color: #7286D3;
 }
 p{
+    text-align: start;
     line-height: 2;
     font-size: 1.2rem;
 }
@@ -118,9 +119,6 @@ p{
     }
     .para-section-one{
         text-shadow: 1px 1px 3px #000;
-    }
-    .para-main-section{
-        text-align: start;
     }
     .heading-main-section,
     .subheading-main-section,
