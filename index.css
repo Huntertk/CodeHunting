@@ -1,0 +1,130 @@
+* *::before *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C3333;
+    color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+/* section one layout */
+.section-one{
+    padding: 0.58em;
+    min-height: 100vh;
+    background-image: url('./images/main-coding-img.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+/*Typo*/
+
+.heading-section-one{
+    font-family: 'Cinzel', serif;
+    color: #f5f5f5;
+    font-size: 3.25rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+    letter-spacing: 10px;
+}
+.highlight{
+    color: #FF0000;
+}
+.subheading-section-one{
+    font-size: 2.25rem;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 6px #000;
+}
+.para-section-one{
+    padding-left:1.02em;
+    text-align: start;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #000;
+}
+
+
+/*Section section*/
+
+.main-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 1em;
+    text-align: center;
+}
+.heading-main-section{
+    text-shadow: 2px 2px 4px #000;
+}
+input{
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    border: 2px solid #7286D3;
+}
+.shadow{
+    text-shadow: 2px 2px 3px #4d0000;
+}
+input:focus{
+    color: #000;
+    background-color: #7286D3;
+}
+p{
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.btn{
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    padding: 1em 0;
+    width: 100%;
+    background-color: #FF0000;
+    font-weight: 900;
+    border-radius: 6px;
+    border: none;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn:hover,
+.btn:focus{
+    background-color: #ee6c6c;
+    box-shadow: 3px 3px 6px #000;
+}
+@media(min-width: 915px){
+    body{
+        display: flex;
+    }
+    .main-section,
+    .section-one{
+        flex: 1;
+    }
+    .main-section{
+        margin-top: 1em;
+    }
+    .heading-main-section{
+        font-size: 2.5rem;
+    }
+    .subheading-main-section{
+        margin: 0;
+    }
+    .para-section-one{
+        text-shadow: 1px 1px 3px #000;
+    }
+    .para-main-section{
+        text-align: start;
+    }
+    .heading-main-section,
+    .subheading-main-section,
+    .para-main-section{
+        max-width: 550px;
+    }
+}
