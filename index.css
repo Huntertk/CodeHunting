@@ -67,7 +67,7 @@ input{
     border-radius: 5px;
     padding: 1em;
     margin-bottom: 1em;
-    width: 100%;
+    width: 85%;
     border: 2px solid #7286D3;
     transform: scale(1);
     transition: all 0.5s;
@@ -92,7 +92,7 @@ p{
     cursor: pointer;
     font-family: 'Cinzel', serif;
     padding: 1em 0;
-    width: 100%;
+    width: 85%;
     background-color: #FF0000;
     font-weight: 900;
     border-radius: 6px;
@@ -102,9 +102,6 @@ p{
     letter-spacing: 3px;
     transform: scale(1);
     transition: all 0.5s;
-}
-input{
-
 }
 .btn:hover,
 .btn:focus{
